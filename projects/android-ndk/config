@@ -1,6 +1,6 @@
 # vim: filetype=yaml sw=2
 filename: '[% project %]-[% c("version") %]-[% c("var/build_id") %].tar.[% c("compress_tar") %]'
-version: 29.0.14206865
+version: 30.0.16248370
 
 var:
   ndk_release: r30
