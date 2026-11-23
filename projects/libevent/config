@@ -17,7 +17,7 @@ targets:
       configure_opt_project: --disable-shared
   android:
     var:
-      configure_opt_project: --disable-shared CFLAGS="[% c('var/CFLAGS') %]"
+      configure_opt_project: --disable-shared --disable-libevent-regress --disable-samples --disable-openssl CFLAGS="[% c('var/CFLAGS') %]"
 
 input_files:
   - project: container-image
