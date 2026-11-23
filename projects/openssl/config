@@ -24,7 +24,7 @@ targets:
         CC=[% c("var/CC") %] android-[% c("var/toolchain_arch") %] \
         -no-shared -D__ANDROID_API__=[% c("var/android_min_api") %] \
         [% c("var/CFLAGS") %] \
-        no-ssl2 no-ssl3 no-tls1 no-tls1_1 \
+        no-ssl3 no-tls1 no-tls1_1 \
         no-ocsp no-nextprotoneg no-psk no-srp no-ts \
         no-cmp no-cms no-ct \
         no-dgram no-dtls no-http no-quic no-srtp \
